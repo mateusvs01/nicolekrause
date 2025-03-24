@@ -121,30 +121,30 @@ body {
 }
 
 .img1 {
-    top: 3%;
+    top: 10%;
     left: -2%;
     width: 200px;
     transform: rotate(-10deg);
 }
 
 .img2 {
-    top: 3%;
+    top: 10%;
     right: -2%;
     width: 200px;
     transform: rotate(10deg);
 }
 
 .img3 {
-    bottom: -2%;
-    left: -2%;
-    width: 200px;
+    bottom: 4%;
+    left: -3%;
+    width: 250px;
     transform: rotate(-10deg);
 }
 
 .img4 {
-    bottom: -2%;
+    bottom: 4%;
     right: -2%;
-    width: 200px;
+    width: 250px;
     transform: rotate(10deg);
 }
 
