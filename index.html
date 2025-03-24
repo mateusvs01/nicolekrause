@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Krause</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Importa o CSS -->
+    <link rel="icon" href="heart-icon.png" type="image/png">
+</head>
+<body>
+    <div class="instruction">Toque para abrir</div> <!-- Instrução adicionada -->
+    <div class="envelope" onclick="toggleEnvelope(this)">
+        <div class="flap"></div>
+        <div class="sticker-overlap">❤️</div>
+        <div class="sticker-behind">❤️</div>
+        <div class="message">
+            <h2>50 motivos para você dizer SIM! 💌</h2>
+            <ol>
+                <li>Eu me importo genuinamente com você.</li>
+                <li>Faço de tudo para ver o seu sorriso todos os dias.</li>
+                <li>Sempre te trato com respeito e carinho, porque você merece o melhor.</li>
+                <li>Valorizo cada momento ao seu lado e quero colecionar muitos mais.</li>
+                <li>Estou disposto a crescer, aprender e evoluir junto com você.</li>
+                <li>Adoro te fazer rir, porque sua risada é o meu som favorito.</li>
+                <li>Sei te ouvir e sempre estarei aqui para te apoiar.</li>
+                <li>Demonstro meu carinho de maneiras especiais, porque você é única.</li>
+                <li>Quero te ver feliz sempre, independentemente de qualquer coisa.</li>
+                <li>Sou sincero, verdadeiro e transparente com você.</li>
+                <li>Nós nos divertimos como ninguém quando estamos juntos.</li>
+                <li>Compartilhamos gostos e interesses que nos aproximam ainda mais.</li>
+                <li>Nossa conexão é única e especial.</li>
+                <li>Sempre te apoiarei nos momentos difíceis, porque você nunca estará sozinha.</li>
+                <li>Nossa cumplicidade é natural e só cresce a cada dia.</li>
+                <li>Você é minha melhor amiga além de tudo.</li>
+                <li>Conseguimos rir até das coisas mais bobas e isso torna tudo leve.</li>
+                <li>A química entre nós é inegável e intensa.</li>
+                <li>Você me faz querer ser uma pessoa melhor todos os dias.</li>
+                <li>Ao seu lado, a vida se torna mais bonita e cheia de sentido.</li>
+                <li>Sempre noto os pequenos detalhes sobre você.</li>
+                <li>Adoro elogiar não só sua beleza, mas sua essência.</li>
+                <li>Não preciso de datas especiais para demonstrar o quanto te amo.</li>
+                <li>Me preocupo com o seu bem-estar e faria qualquer coisa para te proteger.</li>
+                <li>Lembro de coisas importantes para você, porque tudo sobre você importa para mim.</li>
+                <li>Estou sempre pensando em maneiras de te surpreender e fazer seu dia melhor.</li>
+                <li>Você é única para mim, insubstituível e especial.</li>
+                <li>Respeito seu espaço, porque te amar também é entender suas necessidades.</li>
+                <li>Sei quando você precisa de um abraço, mesmo sem você falar nada.</li>
+                <li>Quero que você nunca tenha dúvidas do quanto eu te amo.</li>
+                <li>Quero construir memórias inesquecíveis ao seu lado.</li>
+                <li>Estou disposto a enfrentar qualquer desafio, desde que seja com você.</li>
+                <li>Você é a pessoa que eu quero ter ao meu lado para sempre.</li>
+                <li>Todos os meus planos para o futuro incluem você.</li>
+                <li>Prometo estar presente nos momentos bons e ruins.</li>
+                <li>Sonho com mil aventuras para vivermos juntos.</li>
+                <li>Quero ser seu porto seguro e sua paz.</li>
+                <li>Sei que vamos errar, mas quero aprender e crescer com você.</li>
+                <li>Nosso amor será construído todos os dias com carinho e dedicação.</li>
+                <li>Quero te fazer sentir a mulher mais amada e especial do mundo.</li>
+                <li>Nossa conexão é forte e sincera, e eu sei que você sente isso.</li>
+                <li>Quando olho nos seus olhos, vejo tudo o que sempre procurei.</li>
+                <li>Nós nos entendemos sem precisar falar nada.</li>
+                <li>Sempre encontramos desculpas para estarmos perto um do outro.</li>
+                <li>Sei que você se sente feliz e segura ao meu lado.</li>
+                <li>Eu sou parte dos seus melhores momentos do dia.</li>
+                <li>Quando estamos longe, sinto sua falta a cada segundo.</li>
+                <li>Meu coração já te escolheu há muito tempo.</li>
+                <li>O amor que sentimos um pelo outro é verdadeiro e único.</li>
+                <li>Porque dizer SIM significa embarcar na melhor história da nossa vida!</li>
+            </ol>
+            <h3>Agora, só falta você me dar essa felicidade! Diz SIM? 🥰</h3>
+        </div>
+    </div>
+    
+    <!-- Imagens no plano de fundo -->
+    <img src="img1.png" alt="Imagem 1" class="background-image img1">
+    <img src="img2.png" alt="Imagem 2" class="background-image img2">
+    <img src="img3.png" alt="Imagem 3" class="background-image img3">
+    <img src="img4.png" alt="Imagem 4" class="background-image img4">
+    <div id="auth-modal" class="hidden">
+        <div class="modal-content">
+            <h2>Autenticação Necessária</h2>
+            <input type="text" id="username" placeholder="Usuário">
+            <input type="password" id="password" placeholder="Senha">
+            <button id="auth-submit">Abrir Envelope</button>
+            <button id="cancel-button">Cancelar</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script> <!-- Importa o JavaScript -->
+</body>
+</html>
